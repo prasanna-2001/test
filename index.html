@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/09dcc13738.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="mainbox">
+
+
+            <div class="loginForm">
+                <div class="brandname">
+                    <img id="logo" src="logo.png" alt="">
+                    BLOCK-CHAIN
+                </div>
+                <div class="btnbox">
+                    <div id="butn"></div>
+                    <button type="button" class="slideShiftBar" onclick="login()">LOGin</button>
+                    <button type="button" class="slideShiftBar" onclick="signup()">Signup</button>
+                </div>
+    
+                <form action="" id="login" class="inputBox">
+                    <i id="userlogimg" class="fas fa-user"></i><input type="text" class="inputfield" placeholder="Username" required>
+                    <i id="passlogimg" class="fas fa-key"></i><input type="password" class="inputfield" placeholder="password" required>
+                    <input type="checkbox" class="checkbox" name="rem"><label for="rem"><span>Remember me</span></label>
+                    <button type="submit" class="submit-btn">LOGIN</button>
+                </form>
+                <form action="" id="signup" class="inputBox">
+                    <i id="userlogimg" class="fas fa-user"></i><input type="text" class="inputfield" placeholder="Username" required>
+                    <i id="passlogimg" class="fas fa-key"></i><input type="password" class="inputfield" placeholder="Set Password" required>
+                    <i id="emailregimg" class="fas fa-envelope"></i><input type="email" class="inputfield" placeholder="E-mailID" required>
+                    <input type="checkbox" class="checkbox" name="agree"> 
+                    <label for="agree"><span> i agree to all the terms and condition.</span></label>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+
+
+            <div class="picturebox">
+
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("signup");
+        var z = document.getElementById("butn");
+
+        function signup(){
+            x.style.left = "-400px";
+            y.style.left = "100px";
+            z.style.left = "132px";
+        }
+        function login(){
+            x.style.left = "100px";
+            y.style.left = "760px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+</html>
