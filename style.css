@@ -8,6 +8,8 @@ body{
     background:url(mainbg.png);
     /* background: url(bg.png); */
     background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size:cover ;
     
 }
 .container{
