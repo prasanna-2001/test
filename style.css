@@ -23,13 +23,15 @@ body{
 .mainbox {
     position: relative;
     display: flex;
-    background: green;
+    background: #fff;
     width: 1400px;
     height: 600px;
     margin: 6% auto;
     /* border: 1px solid hotpink; */
     border-radius: 18px;
     /* box-shadow: hotpink; */
+    box-shadow: 0px 0px 16px 0 rgb(255 255 255 / 30%) inset, 2px 16px 255px 0 rgb(0 0 0 / 25%) inset;
+
     
 
 }
@@ -37,14 +39,14 @@ body{
 
 .picturebox{
  
-    background-image: url(bgimg2.png);
-
+    background-image: url(Blockchain_Logo2.png);
     position: relative;
     width: 700px;
     height: 600px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0.9;
     box-shadow: 0px 12px 40px 0 rgb(255 255 255 / 30%) inset, 2px -4px 15px 0 rgb(0 0 0 / 25%) inset;
     
@@ -88,7 +90,7 @@ body{
     position: absolute;
     width: 122.5px;
     height: 100%;
-    background: linear-gradient(to left, #ff105f,#ffad06);
+    background: linear-gradient(to left, #a3a4df,#9bcadd);
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -120,7 +122,7 @@ body{
     display:block;
     cursor: pointer;
     margin:auto;
-    background: linear-gradient(to right, #ff105f,#ffad06);
+    background: linear-gradient(to right, #a3a4df,#9bcadd);
     border: 0;
     outline: none;
     border-radius: 30px;
